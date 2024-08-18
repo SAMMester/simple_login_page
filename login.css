@@ -1,0 +1,102 @@
+body {
+    background: url(background.jpg) ;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: New Amsterdam;
+    min-height: 97vh;
+}
+p{
+    margin: 0;
+}
+.login-box{  
+    height: 500px;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.login-details{
+    height: 120px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.username-box,
+.password-box{
+    font-family: New Amsterdam;
+    padding-left: 10px;
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+}
+.login-title{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    color: white;
+}
+
+.login-reset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.login-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: New Amsterdam;
+    font-size: 40px;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    backdrop-filter: blur(14px);
+    border-radius: 40px;
+    transition: blur(20px) 0.15;
+    transition: 0.15s;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.remember{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    width: 100px;
+}
+.other-things{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+.signup{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

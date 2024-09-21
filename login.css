@@ -1,5 +1,5 @@
 body {
-    background: url(background.jpg) ;
+    background: url(background.jpeg) ;
     background-position: center;
     background-size: cover;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: New Amsterdam;
+    font-family: Poppins;
     min-height: 97vh;
 }
 p{
@@ -19,7 +19,10 @@ p{
     width: 400px;
     flex-direction: column;
     border-radius: 10px;
-    backdrop-filter: blur(5px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    backdrop-filter: blur(3px);
     box-shadow: 4px 4px 50px;
     display: flex;
     justify-content: space-around;
@@ -37,7 +40,7 @@ p{
 }
 .username-box,
 .password-box{
-    font-family: New Amsterdam;
+    font-family: Poppins;
     padding-left: 10px;
     height: 45px;
     width: 300px;
@@ -63,8 +66,9 @@ p{
     background-color: white;
     color: black;
     border: none;
-    font-family: New Amsterdam;
-    font-size: 40px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
     height: 50px;
     width: 300px;
     margin-top: 10px;
@@ -80,10 +84,12 @@ p{
 }
 .remember{
     color: white;
+    font-size: small;
     display: flex;
     flex-direction: row;
     align-items: top;
-    width: 100px;
+    padding-top: 28px;
+    width: 200px;
 }
 .other-things{
     width: 300px;
@@ -99,4 +105,10 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.forgot-link{
+    font-size: small;
+    width: 130px;
+    align-items: center;
+    padding-top: 28px;
 }
